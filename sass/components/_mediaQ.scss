@@ -1,0 +1,57 @@
+@use "variables";
+@media screen and (max-width: 608px) {
+    
+    .con {
+         grid-template-columns: 1fr;
+         height: auto;
+        
+        
+        .img {
+            width: 100%;
+            height: 53vh;
+            background: url(/product-preview-card-component-main/images/image-product-mobile.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            border-top-right-radius: 11px;
+            border-bottom-left-radius: 0;
+        }
+    .figcaption {
+        padding: 15px;
+        position: relative;
+        width: 100%;
+    .Perfume {
+        margin: 0 0 8px;
+      }
+  
+      .product-name {
+        font-size: 1.9rem;
+        margin: 0 0 12px;
+      }
+  
+      .product-text {
+        margin: 0 0 8px;
+      }
+  
+      .price {
+          display: flex;
+          align-items: center;
+  
+          h2 {
+              margin: 0 10px 10px 0;
+              font-size: 1.8rem;
+          }
+  
+          p {
+              @extend h2;
+              font-size: 15px;
+          }
+        }
+  
+    }
+  
+
+    }
+
+
+}
